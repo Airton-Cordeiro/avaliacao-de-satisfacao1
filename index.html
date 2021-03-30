@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="CSS/style.css" media="screen" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    
+    <title>Avaliação de satisfação</title>
+   
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="titulo">
+                <h1 id="titulo">Avaliação de satisfação</h1>
+            </div>
+        </div>
+        
+    </header>
+
+    <main>
+        <form action="" name="calc">
+            <section class="card">
+
+                <div class="container">
+                    <div class="row">
+                        
+                            <div class="col-md-1"></div>
+                                                
+                                <div class="col-md-2">
+                                    
+                                        <div id="mSatisfeito" class="icons">                                
+                                            <img class="dgi-img" src="IMG/avaliar/happy-1.png">
+                                            <h3>Muito Satisfeito </h3> 
+                                        </div>
+                                   
+                                </div>
+                            
+                                <div class="col-md-2">
+                                    
+                                        <div id="satisfeito" class="icons">                                
+                                            <img class="dgi-img" src="IMG/avaliar/happy-3.png">
+                                            <h3>Satisfeito</h3>
+                                        </div>
+                                
+                                </div>
+
+                                <div class="col-md-2">
+                                    
+                                        <div id="regular" class="icons">                                
+                                            <img class="dgi-img" src="IMG/avaliar/confused.png">
+                                            <h3>Regular</h3>
+                                        </div>
+                                  
+                                </div>
+                            
+                                <div class="col-md-2">
+                                   
+                                        <div id="insatisfeito" class="icons">                                
+                                            <img class="dgi-img" src="IMG/avaliar/sad.png">
+                                            <h3> Insatisfeito</h3>
+                                        </div>
+                                   
+                                </div>
+                            
+                                <div class="col-md-2">
+                                    
+                                        <div id="mInsatisfeito" class="icons">                                
+                                            <img class="dgi-img" src="IMG/avaliar/angry.png">
+                                            <h3>Muito Insatisfeito</h3>
+                                        </div>
+                                    
+                                
+                                    
+                                </div>
+
+
+                            <div class="col-md-1"></div>
+
+                
+                    </div>
+                    
+                    
+                </div>
+
+            </section>    
+        </form>
+
+        <section class="result">
+            <div class="card-resultados">
+                <h4 id="res-mSatisfeito" class="res-mSatisfeito">Muito satisfeito = <span id="contador1"></span> </h4>
+            </div>
+            <div class="card-resultados">
+                <h4 id="res-satisfeito" class="res-satisfeito">Satisfeito = <span id="contador2"></span></h4>
+            </div>
+            <div class="card-resultados">
+                <h4 id="res-regular" class="res-regular">Regular = <span id="contador3"></span></h4>
+            </div>
+            <div class="card-resultados">
+                <h4 id="res-insatisfeito" class="res-insatisfeito">Insatisfeito = <span id="contador4"></span></h4>
+            </div>
+            <div class="card-resultados">
+                <h4 id="res-mInsatisfeito" class="res-mInsatisfeito">Muito Insatisfeito = <span id="contador5"></span></h4>
+            </div>
+
+            
+
+        </section>
+
+       <div id="limparDados" class="limparDados"><p id="tituloLimpar" class="titulo-limpar-dados"> Limpar Dados </p></div>
+
+    </main>
+
+   <footer>
+       
+   </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script  src="contador.js/contador.js"></script>
+</body>
+</html>

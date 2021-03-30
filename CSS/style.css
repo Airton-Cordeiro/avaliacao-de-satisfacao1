@@ -1,0 +1,138 @@
+h1{
+    color: white;
+    text-align: center;
+    font-family: 'Roboto';
+    
+}
+.titulo{
+    background-color: #48e917ce;
+    border-radius: 50px;
+    height: 100%;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0 0.2em 1.2em rgb(70, 68, 68);
+}
+
+.dgi-img{
+    display: inline;
+    width: 100px;
+    height: 100px;
+    margin-top: 25px;
+    cursor: pointer;
+    
+    
+}
+h3{
+    display: inline;    
+    font-family: 'Roboto';
+    color: black;
+    
+}
+.dgi-h3{
+    color: black;
+}
+
+.dgi-h3:hover{
+    color: black;
+    text-decoration: none;
+}
+
+.dgi-img:hover{
+    width: 120px;
+    height: 120px;
+    -webkit-transition:0.6s;
+    -moz-transition:0.6s;
+    -o-transition:0.6s;
+    transition:0.6s;
+}
+
+.icons{
+    text-align: center;
+}
+
+.textview{
+    margin-top: 100px;
+    margin-left: 600px;
+    position: fixed;
+}
+
+.card{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-image: linear-gradient(to right,  rgb(72, 233, 23), rgba(255, 0, 0, 0.781));
+    
+    
+    
+    box-shadow: 0 0.2em 1.2em rgb(70, 68, 68);
+}
+
+.card-resultados{
+    background-color: #48e917d5;
+    height: 50px;
+    width: 40%;
+    border-radius: 50px;
+    margin-left: 30%;
+    margin-bottom: 30px;
+    box-shadow: 0 0.2em 1.2em rgb(70, 68, 68);
+}
+
+.result{
+    margin-top: 50px;
+}
+
+.res-mSatisfeito{
+    font-family: 'Roboto';
+    color: black;
+    text-align: center;
+    padding-top: 8px;
+}
+
+.res-satisfeito{
+    font-family: 'Roboto';
+    color: black;
+    text-align: center;
+    padding-top: 8px;
+}
+
+.res-regular{
+    font-family: 'Roboto';
+    color: black;
+    text-align: center;
+    padding-top: 8px;
+}
+
+.res-insatisfeito{
+    font-family: 'Roboto';
+    color: black;
+    text-align: center;
+    padding-top: 8px;
+}
+
+.res-mInsatisfeito{
+    font-family: 'Roboto';
+    color: black;
+    text-align: center;
+    padding-top: 8px;
+}
+
+.limparDados{
+    margin: auto;
+    margin-bottom: 50px;
+    width: 200px;
+    height: 50px;
+    background-color: #1094bd;
+    color: black;
+    border-radius: 50px;
+    box-shadow: 0 0.2em 1.2em rgb(70, 68, 68);
+    cursor: pointer;
+    text-align: center;
+    font-family: bold 'roboto';
+}
+
+.titulo-limpar-dados{
+    padding-top: 8px;
+    font-size: 20px;
+    font: bold;
+}
